@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  /*background-image: url("img/hero-bg.jpg");*/
+  background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -48,6 +48,7 @@ body {
 
 .hero-image {
   margin-bottom: 620px;
+  background-image: url("img/hero-bg.jpg");  
 }
 
 .hero-image .container {
@@ -86,6 +87,9 @@ body {
   margin: 0 0 32px;
   text-align: center;
 }
+.iam {border-radius:50%;
+    width:200px;
+}
 
 .intro h3,
 .portfolio h3 {
@@ -116,6 +120,14 @@ body {
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+}
+
+.skill-ps {
+  background-image: url("img/Adobe_Photoshop_CC_icon.svg")
+}
+
+.skill-figma {
+  background-image: url("img/Figma_square-512.png");
 }
 
 .level {
@@ -158,13 +170,13 @@ body {
   margin: 0 0 24px;
 }
 
-.button {
+.button { 
   padding: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 25px;
   background-color: #288be6;
   color: #ffffff;
 }
